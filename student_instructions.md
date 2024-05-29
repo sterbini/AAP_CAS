@@ -50,44 +50,49 @@ You can compare and check your output with the ones [here](example/test.ipynb).
 ---
 # Software Setup
 
-In this section we will explain how to install Python and Jupyter on your laptop.
+In this section we will explain how to install Python.
+ 
+There are many ways to use Python on your laptop.  You can use it from the terminal, from the browser with Jupyter/JupyterLab or in an Integrated Developer Environment, [IDE](https://www.google.com/search?q=most+popular+python+ide). During the lectures and the the Hands-on we will use Python and JupyterLab.
+
+
 JupyterLab is a user-friendly environment to work with Python. 
-You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/en/stable/).
+You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/en/stable/). -->
 
 > If you already have your favorite Python distribution installed on your laptop, including JupyterLab, you might want to skip the [installation](#installation) and jump to [launch Jupyter Lab](#launch-jupyter-lab) and [test that everything works](#test-that-everything-works).
 
 ## Installation
 
-We suggest to install the **Anaconda** distribution from https://www.anaconda.com/distribution/
+We suggest to install the **Miniconda** distribution from https://docs.anaconda.com/free/miniconda/index.html
 
-<p align="center">
-<a href=https://www.anaconda.com/distribution/><img src="_img_instructions/anaconda.png" alt="" width="70%"/></a>
-</p>
+![alt text](images/miniconda.png)
 
-> We suggest to install one of the latest distribution (**for example version Python 3.9**).
 
-The installation process clearly depends on your operating system. We suggest you to follow the official documentation for [Windows](https://docs.anaconda.com/anaconda/install/windows/), [Linux](https://docs.anaconda.com/anaconda/install/linux/), or [Mac](https://docs.anaconda.com/anaconda/install/mac-os/) as appropriate.
-After having installed **Anaconda**, and [verified your installation](https://docs.anaconda.com/anaconda/install/verify-install/) - as suggested in the [installation documentation](https://docs.anaconda.com/anaconda/install/) - we invite you to start [launching Jupyter Lab](#launch-jupyter-lab) and then [test that everything works](#test-that-everything-works):
+> We suggest to install one of the latest distribution (**for example version Python 3.12**).
+
+The installation process clearly depends on your operating system. We suggest you to follow the official documentation [here](https://docs.anaconda.com/free/miniconda/index.html#quick-command-line-install) (installation from the terminal), where you find the instructions for Windows, macOS and Linux. 
+
+Then please install the addition packages with
+
+```bash
+pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab sympy xsuite
+```
+
+After having installed **miniconda**,  we invite you to start [launching Jupyter Lab](#launch-jupyter-lab) and then [test that everything works](#test-that-everything-works):
 
 ## Launch Jupyter
 
-Once the installation of **Anaconda** is finalised or within your existing Python distribution, you should be able to start Jupyter from a terminal:
+Once the installation of **miniconda** is finalised or within your existing Python distribution, you should be able to start Jupyter from a terminal:
 
-1. Open a (Anaconda) terminal on your operating system:
-    - **Windows:**
+1. Open a  terminal on your operating system:
+    <!-- - **Windows:**
         From the Start menu, search for and open “Anaconda Prompt”:
     - **macOS:**
         Open Launchpad, then click the terminal icon.
     - **Linux:**
-        Open a terminal window.
+        Open a terminal window. -->
 
-2. Launch Jupyter from your terminal:
+2. Launch JupyterLab from your terminal:
 
-    ```bash
-    jupyter notebook
-    ```
-    or, in case you want a jupyter lab server
-    
     ```bash
     jupyter lab
     ```
@@ -102,18 +107,20 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
     On the left hand side of the widows you should see all files under the folder in your operating system where you executed the `jupyter lab` command.
     This will be your **working directory**. 
 
-4. Start playing with Python!  Please, make sure to go throw all the [examples/test.ipynb](examples/test.ipynb) to familiarize with the typical Python concepts that will be used during the course, but also to verify your installation. If you happen to experience any problem, please check to have installed the whole anaconda distribution. Alternatively, you can try to go back to your terminal, and install each single (or missing) package independently, e.g.:
+4. Start playing with Python!  Please, make sure to go throw all the [examples/test.ipynb](examples/test.ipynb) to familiarize with the typical Python concepts that will be used during the course, but also to verify your installation. 
+
+<!-- If you happen to experience any problem, please check to have installed the whole anaconda distribution. Alternatively, you can try to go back to your terminal, and install each single (or missing) package independently, e.g.:
 
 ```python
 pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab sympy cpymad PyNAFF
-```
+``` -->
 
 5. If you are not familiar with Python, you can start playing with simple python snippets. For example, have a look to the following [examples/PythonBasic.ipynb](examples/PythonBasic.ipynb) (courtesy of *Simon Albright*).
 
 
 6. **Just before the start of the course**, we will ask you to download the **latest version** of the [hands-on lattice exercises](./exercises/Exercises.pdf) (even better, the whole repository) in your **working directory**.
 
-7. **Optional:** instead of running Jupyter lab within a browser, you can try to install and the [jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop) application.
+<!-- 7. **Optional:** instead of running Jupyter lab within a browser, you can try to install and the [jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop) application. -->
 
 ---
 ## Appendix: Python Packages
