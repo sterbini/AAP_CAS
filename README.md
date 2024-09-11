@@ -22,26 +22,36 @@ The lecture/course pdf can be found at [https://www.overleaf.com](https://www.ov
     Student instructions: ./student_instructions.md
     Test notebook: examples/test.ipynb
 
-- 11 November: 
+- 11 November:
+- 
     Afternoon **lecture** pdf: 000_Introduction_to_Optics_Design
 
 - 12 November
+  
     Morning **lecture** pdf: 001_Lattice_Cells
+  
     Morning **lecture** pdf: 002_Insertions_And_Dispersion_Suppressors
+  
     Hands-on assignement pdf: 004_Exercises
 
 - 13 November
+  
     Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
 
 - 15 November
+  
     Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
 
 - 16 November
+  
     Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
 
 - 18 November
+  
     Morning **lecture** ipnb: 003_Optics_Calculations
+  
     Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
 
 - 19 November
+  
     Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
