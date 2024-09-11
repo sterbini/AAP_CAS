@@ -32,26 +32,26 @@ The lecture/course pdf can be found at [https://www.overleaf.com](https://www.ov
   
     Morning: **lectures** 001_Lattice_Cells.pdf and 002_Insertions_And_Dispersion_Suppressors.pdf
   
-    Afternoon: **Hands-on** assignement (004_Exercises.pdf)
+    Afternoon: **hands-on** assignement (004_Exercises.pdf)
 
 - 13 November
   
-    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
+    Afternoon: **hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 15 November
   
-    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
+    Afternoon: **hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 16 November
   
-    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
+    Afternoon: **hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 18 November
   
     Morning: **lecture**  003_Optics_Calculations.ipynb
   
-    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
+    Afternoon: **hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 19 November
   
-    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
+    Afternoon: **hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
