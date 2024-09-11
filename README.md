@@ -19,39 +19,39 @@ Based on the [official program](https://cas.web.cern.ch/sites/default/files/Adva
 The lecture/course pdf can be found at [https://www.overleaf.com](https://www.overleaf.com/read/hrpgzczwhqfc#6cc685)
 
 - Before the course:
+  
     Student instructions: ./student_instructions.md
+  
     Test notebook: examples/test.ipynb
 
 - 11 November:
-- 
-    Afternoon **lecture** pdf: 000_Introduction_to_Optics_Design
+  
+    Afternoon: **lecture** 000_Introduction_to_Optics_Design.pdf
 
 - 12 November
   
-    Morning **lecture** pdf: 001_Lattice_Cells
+    Morning: **lectures** 001_Lattice_Cells.pdf and 002_Insertions_And_Dispersion_Suppressors.pdf
   
-    Morning **lecture** pdf: 002_Insertions_And_Dispersion_Suppressors
-  
-    Hands-on assignement pdf: 004_Exercises
+    Afternoon: **Hands-on** assignement (004_Exercises.pdf)
 
 - 13 November
   
-    Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
+    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 15 November
   
-    Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
+    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 16 November
   
-    Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
+    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 18 November
   
-    Morning **lecture** ipnb: 003_Optics_Calculations
+    Morning: **lecture**  003_Optics_Calculations.ipynb
   
-    Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
+    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
 
 - 19 November
   
-    Hands-on assignement pdf: 004_Exercises (still the same document of 12 November)
+    Afternoon: **Hands-on** assignement (004_Exercises.pdf, still the same document of 12 November)
