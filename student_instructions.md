@@ -89,7 +89,7 @@ After the installation, launch JupyterLab and then test that everything works.
 
 This will be your **working directory**. 
 
-3. Start playing with Python!  Please make sure to go throw all the [examples/test.ipynb](examples/test.ipynb) to familiarize with the typical Python concepts that will be used during the course, but also to verify your installation. 
+3. Start playing with Python! Please make sure to go throw all the [examples/test.ipynb](examples/test.ipynb) to familiarize with the typical Python concepts that will be used during the course, but also to verify your installation. 
 
 <!-- If you happen to experience any problem, please check to have installed the whole anaconda distribution. Alternatively, you can try to go back to your terminal, and install each single (or missing) package independently, e.g.:
 
