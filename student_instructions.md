@@ -1,11 +1,11 @@
 # Hands-On Optics Calculations - Setup Instructions
 ---
 
-During the course, we will use **Python3** and [`Xsuite`](https://xsuite.readthedocs.io/en/latest/).
+During the Hands-On Optics Calculations, we will use **Python3** and [`Xsuite`](https://xsuite.readthedocs.io/en/latest/).
 
 `Xsuite` is a collection of python packages for the simulation of the beam dynamics in particle accelerators. 
 
-> **Important:** we kindly ask you to go through this document **before coming** to CAS, such as to **prepare yourself**  for the course. We will explain in the following sections how to install all necessary software on your laptop. **A basic knowledge of Python is assumed**. If you are not familiar with Python, you can find a few resources to fill the gap in the following sections. Do not worry about the theory of Accelerator Linear Optics for the moment (it will be discussed in details during the school), just focus on Python and the installation.
+> **Important:** we kindly ask you to go through this document **before coming** to CAS, such as to **prepare yourself**  for the course. We will explain in the following sections how to install all necessary software on your laptop. **A basic knowledge of Python is assumed**. If you are not familiar with Python, you can find a few resources to fill the gap in the following sections. Do not worry about the theory of Optics Calculations for the moment (it will be discussed in details during the school), just focus on Python and the installation.
 
 After [a short introduction](#a-very-short-introduction-to-python), we will focus on the [software setup](#software-setup). 
 Finally, in [appendix](#appendix-python-packages), you will find links and cheatsheets for the most common Python packages that will be used during the course.
@@ -89,7 +89,7 @@ After the installation,  [launching JupyterLab](#launch-jupyter-lab) and then [t
 2. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to the following:
 
     <p align="center">
-    <img src="_img_instructions/upload_5b0618b75e4f4df0facf2a609b9354b5.png" alt="" width="70%"/>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fipython-books.github.io%2F36-introducing-jupyterlab%2F&psig=AOvVaw3gHakxOnpWkG1O7WJRzf6O&ust=1729959552484000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiI1Nj3qYkDFQAAAAAdAAAAABAE" alt="" width="70%"/>
     </p>
 
     On the left-hand side of the widows, you should see all files under the folder in your operating system where you executed the `jupyter lab` command.
