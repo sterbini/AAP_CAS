@@ -74,7 +74,7 @@ Then please install the additional packages with
 pip install matplotlib ipywidgets jupyter jupyterlab sympy
 ```
 
-After the installation,  [launching JupyterLab](#launch-jupyter-lab) and then [test that everything works](#test-that-everything-works):
+After the installation, launch JupyterLab and then test that everything works.
 
 ## Launch Jupyter
 
@@ -84,7 +84,6 @@ After the installation,  [launching JupyterLab](#launch-jupyter-lab) and then [t
     ```bash
     jupyter lab
     ```
-    
 
 2. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to this [image](https://ipython-books.github.io/pages/chapter03_notebook/06_jupyterlab_files/home.png).
 
