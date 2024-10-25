@@ -86,14 +86,9 @@ After the installation,  [launching JupyterLab](#launch-jupyter-lab) and then [t
     ```
     
 
-2. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to the following:
+2. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to this [image](https://ipython-books.github.io/pages/chapter03_notebook/06_jupyterlab_files/home.png).
 
-    <p align="center">
-    <img src="https://ipython-books.github.io/pages/chapter03_notebook/06_jupyterlab_files/home.png" alt="" width="70%"/>
-    </p>
-
-    On the left-hand side of the widows, you should see all files under the folder in your operating system where you executed the `jupyter lab` command.
-    This will be your **working directory**. 
+This will be your **working directory**. 
 
 3. Start playing with Python!  Please make sure to go throw all the [examples/test.ipynb](examples/test.ipynb) to familiarize with the typical Python concepts that will be used during the course, but also to verify your installation. 
 
@@ -119,44 +114,21 @@ You can leverage python's capability by exploring a galaxy of packages. Below yo
 To get familiar with the *numpy* package, have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf).
 You can google many other resources, but the one presented of the poster covers the set of instructions you should be familiar with.
 
-<p align="center">
-<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf><img src="_img_instructions/upload_6ffb4d07b1ebb895528f2a34aae41ec6.png" alt="" width="90%"/></a>
-</p>
-
 ### The *matplotlib* package
 To get familiar with the *matplotlib* package, have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf).
-
-<p align="center">
-<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf><img src="_img_instructions/upload_4b54812812e21978b600b860ba1ddf5b.png" alt="" width="90%"/></a>
-</p>
 
 ### The *linalg* module
 To get familiar with the Linear Algebra (linalg) package, have a look at the following [summary poster](
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf).
 
-<p align="center">
-<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf><img src="_img_instructions/upload_15561fc12184bb0ae3f9cf7b1850317a.png" alt="" width="90%"/></a>
-</p>
-
 ### The *pandas* package (optional)
 To get familiar with the *pandas* package, have a look at the following [summary poster](
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf).
-
-<p align="center">
-<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf><img src="_img_instructions/upload_90383c01e29d29fb6a5516c613e22c4d.png" alt="" width="90%"/></a>
-</p>
 
 ### The *seaborn* package (optional)
 To get familiar with the *seaborn* package, have a look at the following [summary poster](
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf).
 
-<p align="center">
-<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf><img src="_img_instructions/upload_9a3c3f5ca48bbd567a0662df20dbd16f.png" alt="" width="90%"/></a>
-</p>
-
 ### The *sympy* package (optional)
 To get familiar with the *sympy* package, have a look at the following [summary poster](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf).
 
-<p align="center">
-<a href=http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf><img src="_img_instructions/upload_fc7a06ea6135d2bf17311bd7a91f1a9f.png" alt="" width="90%"/></a>
-</p>
