@@ -89,7 +89,7 @@ After the installation,  [launching JupyterLab](#launch-jupyter-lab) and then [t
 2. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to the following:
 
     <p align="center">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fipython-books.github.io%2F36-introducing-jupyterlab%2F&psig=AOvVaw3gHakxOnpWkG1O7WJRzf6O&ust=1729959552484000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiI1Nj3qYkDFQAAAAAdAAAAABAE" alt="" width="70%"/>
+    <img src="https://ipython-books.github.io/pages/chapter03_notebook/06_jupyterlab_files/home.png" alt="" width="70%"/>
     </p>
 
     On the left-hand side of the widows, you should see all files under the folder in your operating system where you executed the `jupyter lab` command.
