@@ -1,15 +1,21 @@
 # Hands-On Optics Calculations - Setup Instructions
 ---
 
-During the course we will use **Python3** in a **[Jupyter](https://jupyter.org)**  and, mostly, the [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/) and [xsuite](https://xsuite.readthedocs.io/en/latest/) packages. We will explain in the following sections how to install all necessary software on **your laptop**.
-A basic knowledge of Python is assumed. If you are not familiar with Python, you can find a few resources to fill the gap in the following sections.
-
-Do not worry about the theory for the moment (it will be discussed in details during the school) but focus on the Python syntax and data types (tuples, lists,...).
-
-After [a short introduction](#a-very-short-introduction-to-python), where we provided some useful links to get familiar with Python, we will focus on the [software setup](#software-setup). 
-Finally, in [appendix](#appendix-python-packages) you will find links and cheatsheets for the most common Python packages that will be used during the course.
+During the course we will use **Python3** and [`Xsuite`](https://xsuite.readthedocs.io/en/latest/).
+`Xsuite` is a collection python packages for the simulation of the beam dynamics in particle accelerators. 
 
 > **Important:** we kindly ask you to go throw this document **before coming** to CAS, such as to **prepare yourself** (and **your laptop**) for the course. 
+
+We will explain in the following sections how to install all necessary software on **your laptop**.
+
+**A basic knowledge of Python is assumed**. If you are not familiar with Python, you can find a few resources to fill the gap in the following sections.
+
+Do not worry about the theory of Accelerator Optics for the moment (it will be discussed in details during the school) but get familiar with Python.
+
+After [a short introduction](#a-very-short-introduction-to-python), we will focus on the [software setup](#software-setup). 
+Finally, in [appendix](#appendix-python-packages) you will find links and cheatsheets for the most common Python packages that will be used during the course.
+
+
 
 ---
 # A very short introduction to Python
@@ -24,6 +30,7 @@ You can find several nice courses, videos and resources on the internet. Here yo
 ### Test Python on a web page
 
 If you are not familiar with Python and you have not it installed on your laptop, you can start playing with simple python snippets on the web (e.g., [CoLab](https://colab.research.google.com/drive/1Pk-UPE2-OCA2UCFIunqDwxXmQi9Yvp-C?usp=sharing), a google account is needed).
+
 
 You can test the following commands:
 
@@ -45,12 +52,14 @@ def Q(f=1):
 # Eigenvalues and eigenvectors
 np.linalg.eig(M)
 ```
-You can compare and check your output with the ones [here](example/test.ipynb).
+You can compare and check your output with the ones [here](examples/test.ipynb).
 
 ---
 # Software Setup
 
-In this section we will explain how to install Python.
+In this section we will explain how to install Python locally on your laptop. 
+
+> We suggest not to use CoLab (or other remote servers) during the hands-on since there could be problem with the internet connection.
  
 There are many ways to use Python on your laptop.  You can use it from the terminal, from the browser with Jupyter/JupyterLab or in an Integrated Developer Environment, [IDE](https://www.google.com/search?q=most+popular+python+ide). During the lectures and the the Hands-on we will use Python and JupyterLab.
 
@@ -58,40 +67,24 @@ There are many ways to use Python on your laptop.  You can use it from the termi
 JupyterLab is a user-friendly environment to work with Python. 
 You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/en/stable/). -->
 
-> If you already have your favorite Python distribution installed on your laptop, including JupyterLab, you might want to skip the [installation](#installation) and jump to [launch Jupyter Lab](#launch-jupyter-lab) and [test that everything works](#test-that-everything-works).
 
 ## Installation
 
-We suggest to install the **Miniconda** distribution from https://docs.anaconda.com/free/miniconda/index.html
-
-![alt text](images/miniconda.png)
+We suggest to install the **xsuite** following the instructions of the [Basic Installation](https://xsuite.readthedocs.io/en/latest/installation.html#basic-installation). 
 
 
-> We suggest to install one of the latest distribution (**for example version Python 3.12**).
-
-The installation process clearly depends on your operating system. We suggest you to follow the official documentation [here](https://docs.anaconda.com/free/miniconda/index.html#quick-command-line-install) (installation from the terminal), where you find the instructions for Windows, macOS and Linux. 
-
-Then please install the addition packages with
+Then please install the additional packages with
 
 ```bash
-pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab sympy xsuite
+pip install matplotlib ipywidgets jupyter jupyterlab sympy
 ```
 
-After having installed **miniconda**,  we invite you to start [launching Jupyter Lab](#launch-jupyter-lab) and then [test that everything works](#test-that-everything-works):
+After the installation,  [launching JupyterLab](#launch-jupyter-lab) and then [test that everything works](#test-that-everything-works):
 
 ## Launch Jupyter
 
-Once the installation of **miniconda** is finalised or within your existing Python distribution, you should be able to start Jupyter from a terminal:
 
-1. Open a  terminal on your operating system:
-    <!-- - **Windows:**
-        From the Start menu, search for and open “Anaconda Prompt”:
-    - **macOS:**
-        Open Launchpad, then click the terminal icon.
-    - **Linux:**
-        Open a terminal window. -->
-
-2. Launch JupyterLab from your terminal:
+1. Launch JupyterLab from your terminal:
 
     ```bash
     jupyter lab
