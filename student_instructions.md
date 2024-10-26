@@ -65,7 +65,7 @@ You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/
 
 ## Installation
 
-We suggest installing **xsuite** following the instructions of the [Basic Installation](https://xsuite.readthedocs.io/en/latest/installation.html#basic-installation). There you will find the procedures to install it on Linux, MACOS and Windows Operating System (OS). For Windows OS, please use the Windows Subsystem for Linux, [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux).
+We suggest installing **xsuite** following the instructions of the [Basic Installation](https://xsuite.readthedocs.io/en/latest/installation.html#basic-installation). There you will find the procedures to install it on Linux, Mac and Windows Operating Systems (OS). For Windows OS, please use the Windows Subsystem for Linux, [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux).
 
 
 Then please install the additional packages with
