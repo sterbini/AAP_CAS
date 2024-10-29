@@ -47,7 +47,7 @@ def Q(f=1):
 # Eigenvalues and eigenvectors
 np.linalg.eig(M)
 ```
-You can compare and check your output with the ones [here](examples/test.ipynb).
+You can compare and check your output with the ones [here](000_example.ipynb).
 
 ---
 # Software Setup
