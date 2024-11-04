@@ -93,7 +93,7 @@ def plotLatticeSeries(ax,mys, length, height=1., v_offset=0., color='r',alpha=0.
     )
     return;
 
-def useful_plots(tranfer_line, tw1, ylim1=None, ylim2=None, ylim3=None, filter_elements="ThinSliceQuadrupole"):
+def useful_plots(transfer_line, tw1, ylim1=None, ylim2=None, ylim3=None, filter_elements="ThinSliceQuadrupole"):
     fig = plt.figure(figsize=(13,8))
 
     ax1=plt.subplot2grid((3,3), (0,0), colspan=3, rowspan=1)
