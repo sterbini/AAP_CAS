@@ -1,0 +1,6309 @@
+{
+  "elements": {
+    "mb": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf_half": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "qd_half": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sf": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "sd": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "of": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "od": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "corrector": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "start_cell": {
+      "__class__": "Marker"
+    },
+    "qf.1": {
+      "__class__": "Replica",
+      "parent_name": "qf_half"
+    },
+    "sf.1": {
+      "__class__": "Replica",
+      "parent_name": "sf"
+    },
+    "mb.1": {
+      "__class__": "Replica",
+      "parent_name": "mb"
+    },
+    "of.1": {
+      "__class__": "Replica",
+      "parent_name": "of"
+    },
+    "mb.2": {
+      "__class__": "Replica",
+      "parent_name": "mb"
+    },
+    "mc.1": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1": {
+      "__class__": "Replica",
+      "parent_name": "qd_half"
+    },
+    "mid_cell": {
+      "__class__": "Marker"
+    },
+    "qd.2": {
+      "__class__": "Replica",
+      "parent_name": "qd_half"
+    },
+    "sd.1": {
+      "__class__": "Replica",
+      "parent_name": "sd"
+    },
+    "mb.3": {
+      "__class__": "Replica",
+      "parent_name": "mb"
+    },
+    "od.1": {
+      "__class__": "Replica",
+      "parent_name": "od"
+    },
+    "mb.4": {
+      "__class__": "Replica",
+      "parent_name": "mb"
+    },
+    "mc.2": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2": {
+      "__class__": "Replica",
+      "parent_name": "qf_half"
+    },
+    "end_cell": {
+      "__class__": "Marker"
+    },
+    "rf": {
+      "__class__": "Cavity"
+    },
+    "drift_1": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "drift_2": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "drift_3": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "drift_4": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "drift_5": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "drift_6": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "drift_7": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "start_cell.cell0": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell0": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell0": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell0": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell0": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell0": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell0": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell0": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell0": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell0": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell0": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell0": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell0": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell0": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell0": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell0": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell0": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell0": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell0": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell0": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell0": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell0": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell0": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell0": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell0": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell1": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell1": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell1": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell1": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell1": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell1": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell1": {
+      "__class__": "Cavity",
+      "voltage": 1000000.0,
+      "frequency": 5584268.702278795
+    },
+    "drift_3.cell1": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell1": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell1": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell1": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell1": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell1": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell1": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell1": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell1": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell1": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell1": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell1": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell1": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell1": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell1": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell1": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell1": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell1": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell2": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell2": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell2": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell2": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell2": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell2": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell2": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell2": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell2": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell2": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell2": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell2": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell2": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell2": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell2": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell2": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell2": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell2": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell2": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell2": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell2": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell2": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell2": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell2": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell2": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell3": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell3": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell3": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell3": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell3": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell3": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell3": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell3": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell3": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell3": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell3": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell3": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell3": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell3": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell3": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell3": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell3": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell3": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell3": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell3": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell3": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell3": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell3": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell3": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell3": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell4": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell4": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell4": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell4": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell4": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell4": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell4": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell4": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell4": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell4": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell4": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell4": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell4": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell4": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell4": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell4": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell4": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell4": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell4": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell4": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell4": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell4": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell4": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell4": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell4": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell5": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell5": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell5": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell5": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell5": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell5": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell5": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell5": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell5": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell5": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell5": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell5": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell5": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell5": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell5": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell5": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell5": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell5": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell5": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell5": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell5": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell5": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell5": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell5": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell5": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell6": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell6": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell6": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell6": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell6": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell6": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell6": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell6": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell6": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell6": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell6": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell6": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell6": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell6": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell6": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell6": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell6": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell6": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell6": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell6": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell6": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell6": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell6": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell6": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell6": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell7": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell7": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell7": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell7": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell7": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell7": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell7": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell7": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell7": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell7": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell7": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell7": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell7": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell7": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell7": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell7": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell7": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell7": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell7": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell7": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell7": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell7": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell7": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell7": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell7": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell8": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell8": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell8": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell8": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell8": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell8": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell8": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell8": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell8": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell8": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell8": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell8": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell8": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell8": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell8": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell8": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell8": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell8": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell8": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell8": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell8": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell8": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell8": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell8": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell8": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell9": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell9": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell9": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell9": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell9": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell9": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell9": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell9": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell9": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell9": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell9": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell9": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell9": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell9": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell9": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell9": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell9": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell9": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell9": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell9": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell9": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell9": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell9": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell9": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell9": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell10": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell10": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell10": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell10": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell10": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell10": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell10": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell10": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell10": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell10": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell10": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell10": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell10": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell10": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell10": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell10": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell10": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell10": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell10": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell10": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell10": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell10": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell10": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell10": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell10": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell11": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell11": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell11": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell11": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell11": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell11": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell11": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell11": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell11": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell11": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell11": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell11": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell11": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell11": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell11": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell11": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell11": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell11": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell11": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell11": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell11": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell11": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell11": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell11": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell11": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell12": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell12": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell12": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell12": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell12": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell12": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell12": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell12": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell12": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell12": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell12": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell12": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell12": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell12": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell12": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell12": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell12": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell12": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell12": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell12": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell12": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell12": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell12": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell12": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell12": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell13": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell13": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell13": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell13": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell13": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell13": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell13": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell13": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell13": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell13": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell13": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell13": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell13": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell13": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell13": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell13": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell13": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell13": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell13": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell13": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell13": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell13": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell13": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell13": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell13": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell14": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell14": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell14": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell14": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell14": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell14": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell14": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell14": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell14": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell14": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell14": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell14": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell14": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell14": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell14": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell14": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell14": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell14": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell14": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell14": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell14": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell14": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell14": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell14": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell14": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell15": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell15": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell15": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell15": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell15": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell15": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell15": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell15": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell15": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell15": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell15": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell15": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell15": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell15": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell15": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell15": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell15": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell15": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell15": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell15": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell15": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell15": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell15": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell15": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell15": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell16": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell16": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell16": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell16": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell16": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell16": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell16": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell16": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell16": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell16": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell16": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell16": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell16": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell16": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell16": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell16": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell16": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell16": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell16": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell16": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell16": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell16": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell16": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell16": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell16": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell17": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell17": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell17": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell17": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell17": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell17": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell17": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell17": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell17": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell17": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell17": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell17": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell17": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell17": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell17": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell17": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell17": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell17": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell17": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell17": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell17": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell17": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell17": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell17": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell17": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell18": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell18": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell18": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell18": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell18": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell18": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell18": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell18": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell18": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell18": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell18": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell18": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell18": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell18": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell18": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell18": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell18": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell18": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell18": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell18": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell18": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell18": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell18": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell18": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell18": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell19": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell19": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell19": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell19": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell19": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell19": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell19": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell19": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell19": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell19": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell19": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell19": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell19": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell19": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell19": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell19": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell19": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell19": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell19": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell19": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell19": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell19": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell19": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell19": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell19": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell20": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell20": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell20": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell20": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell20": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell20": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell20": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell20": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell20": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell20": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell20": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell20": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell20": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell20": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell20": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell20": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell20": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell20": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell20": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell20": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell20": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell20": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell20": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell20": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell20": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell21": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell21": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell21": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell21": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell21": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell21": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell21": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell21": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell21": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell21": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell21": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell21": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell21": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell21": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell21": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell21": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell21": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell21": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell21": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell21": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell21": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell21": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell21": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell21": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell21": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell22": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell22": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell22": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell22": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell22": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell22": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell22": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell22": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell22": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell22": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell22": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell22": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell22": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell22": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell22": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell22": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell22": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell22": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell22": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell22": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell22": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell22": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell22": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell22": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell22": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell23": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell23": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell23": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell23": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell23": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell23": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell23": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell23": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell23": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell23": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell23": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell23": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell23": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell23": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell23": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell23": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell23": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell23": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell23": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell23": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell23": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell23": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell23": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell23": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell23": {
+      "__class__": "Marker"
+    },
+    "start_cell.cell24": {
+      "__class__": "Marker"
+    },
+    "qf.1.cell24": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "sf.1.cell24": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": 0.4202671469086377,
+      "order": 5
+    },
+    "drift_1.cell24": {
+      "__class__": "Drift",
+      "length": 0.15000000000000013
+    },
+    "mb.1.cell24": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_2.cell24": {
+      "__class__": "Drift",
+      "length": 0.75
+    },
+    "rf.cell24": {
+      "__class__": "Cavity"
+    },
+    "drift_3.cell24": {
+      "__class__": "Drift",
+      "length": 0.6500000000000004
+    },
+    "of.1.cell24": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": -10.0,
+      "order": 5
+    },
+    "mb.2.cell24": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_4.cell24": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.1.cell24": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qd.1.cell24": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "mid_cell.cell24": {
+      "__class__": "Marker"
+    },
+    "qd.2.cell24": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": -0.14439016289801804,
+      "order": 5
+    },
+    "sd.1.cell24": {
+      "__class__": "Sextupole",
+      "length": 0.1,
+      "k2": -0.8393591503025941,
+      "order": 5
+    },
+    "drift_5.cell24": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mb.3.cell24": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_6.cell24": {
+      "__class__": "Drift",
+      "length": 1.3999999999999986
+    },
+    "od.1.cell24": {
+      "__class__": "Octupole",
+      "length": 0.1,
+      "k3": 20.0,
+      "order": 5
+    },
+    "mb.4.cell24": {
+      "__class__": "Bend",
+      "length": 3.5,
+      "k0": 0.017951958020513106,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "h": 0.017951958020513106,
+      "model": "adaptive",
+      "order": 5
+    },
+    "drift_7.cell24": {
+      "__class__": "Drift",
+      "length": 0.14999999999999858
+    },
+    "mc.2.cell24": {
+      "__class__": "Bend",
+      "length": 0.1,
+      "_edge_exit_model": 0,
+      "_edge_entry_model": 0,
+      "model": "adaptive",
+      "order": 5
+    },
+    "qf.2.cell24": {
+      "__class__": "Quadrupole",
+      "length": 0.5,
+      "_cos_rot_s": 1.0,
+      "k1": 0.14207910429444742,
+      "order": 5
+    },
+    "end_cell.cell24": {
+      "__class__": "Marker"
+    }
+  },
+  "element_names": [
+    "start_cell.cell0",
+    "qf.1.cell0",
+    "sf.1.cell0",
+    "drift_1.cell0",
+    "mb.1.cell0",
+    "drift_2.cell0",
+    "rf.cell0",
+    "drift_3.cell0",
+    "of.1.cell0",
+    "mb.2.cell0",
+    "drift_4.cell0",
+    "mc.1.cell0",
+    "qd.1.cell0",
+    "mid_cell.cell0",
+    "qd.2.cell0",
+    "sd.1.cell0",
+    "drift_5.cell0",
+    "mb.3.cell0",
+    "drift_6.cell0",
+    "od.1.cell0",
+    "mb.4.cell0",
+    "drift_7.cell0",
+    "mc.2.cell0",
+    "qf.2.cell0",
+    "end_cell.cell0",
+    "start_cell.cell1",
+    "qf.1.cell1",
+    "sf.1.cell1",
+    "drift_1.cell1",
+    "mb.1.cell1",
+    "drift_2.cell1",
+    "rf.cell1",
+    "drift_3.cell1",
+    "of.1.cell1",
+    "mb.2.cell1",
+    "drift_4.cell1",
+    "mc.1.cell1",
+    "qd.1.cell1",
+    "mid_cell.cell1",
+    "qd.2.cell1",
+    "sd.1.cell1",
+    "drift_5.cell1",
+    "mb.3.cell1",
+    "drift_6.cell1",
+    "od.1.cell1",
+    "mb.4.cell1",
+    "drift_7.cell1",
+    "mc.2.cell1",
+    "qf.2.cell1",
+    "end_cell.cell1",
+    "start_cell.cell2",
+    "qf.1.cell2",
+    "sf.1.cell2",
+    "drift_1.cell2",
+    "mb.1.cell2",
+    "drift_2.cell2",
+    "rf.cell2",
+    "drift_3.cell2",
+    "of.1.cell2",
+    "mb.2.cell2",
+    "drift_4.cell2",
+    "mc.1.cell2",
+    "qd.1.cell2",
+    "mid_cell.cell2",
+    "qd.2.cell2",
+    "sd.1.cell2",
+    "drift_5.cell2",
+    "mb.3.cell2",
+    "drift_6.cell2",
+    "od.1.cell2",
+    "mb.4.cell2",
+    "drift_7.cell2",
+    "mc.2.cell2",
+    "qf.2.cell2",
+    "end_cell.cell2",
+    "start_cell.cell3",
+    "qf.1.cell3",
+    "sf.1.cell3",
+    "drift_1.cell3",
+    "mb.1.cell3",
+    "drift_2.cell3",
+    "rf.cell3",
+    "drift_3.cell3",
+    "of.1.cell3",
+    "mb.2.cell3",
+    "drift_4.cell3",
+    "mc.1.cell3",
+    "qd.1.cell3",
+    "mid_cell.cell3",
+    "qd.2.cell3",
+    "sd.1.cell3",
+    "drift_5.cell3",
+    "mb.3.cell3",
+    "drift_6.cell3",
+    "od.1.cell3",
+    "mb.4.cell3",
+    "drift_7.cell3",
+    "mc.2.cell3",
+    "qf.2.cell3",
+    "end_cell.cell3",
+    "start_cell.cell4",
+    "qf.1.cell4",
+    "sf.1.cell4",
+    "drift_1.cell4",
+    "mb.1.cell4",
+    "drift_2.cell4",
+    "rf.cell4",
+    "drift_3.cell4",
+    "of.1.cell4",
+    "mb.2.cell4",
+    "drift_4.cell4",
+    "mc.1.cell4",
+    "qd.1.cell4",
+    "mid_cell.cell4",
+    "qd.2.cell4",
+    "sd.1.cell4",
+    "drift_5.cell4",
+    "mb.3.cell4",
+    "drift_6.cell4",
+    "od.1.cell4",
+    "mb.4.cell4",
+    "drift_7.cell4",
+    "mc.2.cell4",
+    "qf.2.cell4",
+    "end_cell.cell4",
+    "start_cell.cell5",
+    "qf.1.cell5",
+    "sf.1.cell5",
+    "drift_1.cell5",
+    "mb.1.cell5",
+    "drift_2.cell5",
+    "rf.cell5",
+    "drift_3.cell5",
+    "of.1.cell5",
+    "mb.2.cell5",
+    "drift_4.cell5",
+    "mc.1.cell5",
+    "qd.1.cell5",
+    "mid_cell.cell5",
+    "qd.2.cell5",
+    "sd.1.cell5",
+    "drift_5.cell5",
+    "mb.3.cell5",
+    "drift_6.cell5",
+    "od.1.cell5",
+    "mb.4.cell5",
+    "drift_7.cell5",
+    "mc.2.cell5",
+    "qf.2.cell5",
+    "end_cell.cell5",
+    "start_cell.cell6",
+    "qf.1.cell6",
+    "sf.1.cell6",
+    "drift_1.cell6",
+    "mb.1.cell6",
+    "drift_2.cell6",
+    "rf.cell6",
+    "drift_3.cell6",
+    "of.1.cell6",
+    "mb.2.cell6",
+    "drift_4.cell6",
+    "mc.1.cell6",
+    "qd.1.cell6",
+    "mid_cell.cell6",
+    "qd.2.cell6",
+    "sd.1.cell6",
+    "drift_5.cell6",
+    "mb.3.cell6",
+    "drift_6.cell6",
+    "od.1.cell6",
+    "mb.4.cell6",
+    "drift_7.cell6",
+    "mc.2.cell6",
+    "qf.2.cell6",
+    "end_cell.cell6",
+    "start_cell.cell7",
+    "qf.1.cell7",
+    "sf.1.cell7",
+    "drift_1.cell7",
+    "mb.1.cell7",
+    "drift_2.cell7",
+    "rf.cell7",
+    "drift_3.cell7",
+    "of.1.cell7",
+    "mb.2.cell7",
+    "drift_4.cell7",
+    "mc.1.cell7",
+    "qd.1.cell7",
+    "mid_cell.cell7",
+    "qd.2.cell7",
+    "sd.1.cell7",
+    "drift_5.cell7",
+    "mb.3.cell7",
+    "drift_6.cell7",
+    "od.1.cell7",
+    "mb.4.cell7",
+    "drift_7.cell7",
+    "mc.2.cell7",
+    "qf.2.cell7",
+    "end_cell.cell7",
+    "start_cell.cell8",
+    "qf.1.cell8",
+    "sf.1.cell8",
+    "drift_1.cell8",
+    "mb.1.cell8",
+    "drift_2.cell8",
+    "rf.cell8",
+    "drift_3.cell8",
+    "of.1.cell8",
+    "mb.2.cell8",
+    "drift_4.cell8",
+    "mc.1.cell8",
+    "qd.1.cell8",
+    "mid_cell.cell8",
+    "qd.2.cell8",
+    "sd.1.cell8",
+    "drift_5.cell8",
+    "mb.3.cell8",
+    "drift_6.cell8",
+    "od.1.cell8",
+    "mb.4.cell8",
+    "drift_7.cell8",
+    "mc.2.cell8",
+    "qf.2.cell8",
+    "end_cell.cell8",
+    "start_cell.cell9",
+    "qf.1.cell9",
+    "sf.1.cell9",
+    "drift_1.cell9",
+    "mb.1.cell9",
+    "drift_2.cell9",
+    "rf.cell9",
+    "drift_3.cell9",
+    "of.1.cell9",
+    "mb.2.cell9",
+    "drift_4.cell9",
+    "mc.1.cell9",
+    "qd.1.cell9",
+    "mid_cell.cell9",
+    "qd.2.cell9",
+    "sd.1.cell9",
+    "drift_5.cell9",
+    "mb.3.cell9",
+    "drift_6.cell9",
+    "od.1.cell9",
+    "mb.4.cell9",
+    "drift_7.cell9",
+    "mc.2.cell9",
+    "qf.2.cell9",
+    "end_cell.cell9",
+    "start_cell.cell10",
+    "qf.1.cell10",
+    "sf.1.cell10",
+    "drift_1.cell10",
+    "mb.1.cell10",
+    "drift_2.cell10",
+    "rf.cell10",
+    "drift_3.cell10",
+    "of.1.cell10",
+    "mb.2.cell10",
+    "drift_4.cell10",
+    "mc.1.cell10",
+    "qd.1.cell10",
+    "mid_cell.cell10",
+    "qd.2.cell10",
+    "sd.1.cell10",
+    "drift_5.cell10",
+    "mb.3.cell10",
+    "drift_6.cell10",
+    "od.1.cell10",
+    "mb.4.cell10",
+    "drift_7.cell10",
+    "mc.2.cell10",
+    "qf.2.cell10",
+    "end_cell.cell10",
+    "start_cell.cell11",
+    "qf.1.cell11",
+    "sf.1.cell11",
+    "drift_1.cell11",
+    "mb.1.cell11",
+    "drift_2.cell11",
+    "rf.cell11",
+    "drift_3.cell11",
+    "of.1.cell11",
+    "mb.2.cell11",
+    "drift_4.cell11",
+    "mc.1.cell11",
+    "qd.1.cell11",
+    "mid_cell.cell11",
+    "qd.2.cell11",
+    "sd.1.cell11",
+    "drift_5.cell11",
+    "mb.3.cell11",
+    "drift_6.cell11",
+    "od.1.cell11",
+    "mb.4.cell11",
+    "drift_7.cell11",
+    "mc.2.cell11",
+    "qf.2.cell11",
+    "end_cell.cell11",
+    "start_cell.cell12",
+    "qf.1.cell12",
+    "sf.1.cell12",
+    "drift_1.cell12",
+    "mb.1.cell12",
+    "drift_2.cell12",
+    "rf.cell12",
+    "drift_3.cell12",
+    "of.1.cell12",
+    "mb.2.cell12",
+    "drift_4.cell12",
+    "mc.1.cell12",
+    "qd.1.cell12",
+    "mid_cell.cell12",
+    "qd.2.cell12",
+    "sd.1.cell12",
+    "drift_5.cell12",
+    "mb.3.cell12",
+    "drift_6.cell12",
+    "od.1.cell12",
+    "mb.4.cell12",
+    "drift_7.cell12",
+    "mc.2.cell12",
+    "qf.2.cell12",
+    "end_cell.cell12",
+    "start_cell.cell13",
+    "qf.1.cell13",
+    "sf.1.cell13",
+    "drift_1.cell13",
+    "mb.1.cell13",
+    "drift_2.cell13",
+    "rf.cell13",
+    "drift_3.cell13",
+    "of.1.cell13",
+    "mb.2.cell13",
+    "drift_4.cell13",
+    "mc.1.cell13",
+    "qd.1.cell13",
+    "mid_cell.cell13",
+    "qd.2.cell13",
+    "sd.1.cell13",
+    "drift_5.cell13",
+    "mb.3.cell13",
+    "drift_6.cell13",
+    "od.1.cell13",
+    "mb.4.cell13",
+    "drift_7.cell13",
+    "mc.2.cell13",
+    "qf.2.cell13",
+    "end_cell.cell13",
+    "start_cell.cell14",
+    "qf.1.cell14",
+    "sf.1.cell14",
+    "drift_1.cell14",
+    "mb.1.cell14",
+    "drift_2.cell14",
+    "rf.cell14",
+    "drift_3.cell14",
+    "of.1.cell14",
+    "mb.2.cell14",
+    "drift_4.cell14",
+    "mc.1.cell14",
+    "qd.1.cell14",
+    "mid_cell.cell14",
+    "qd.2.cell14",
+    "sd.1.cell14",
+    "drift_5.cell14",
+    "mb.3.cell14",
+    "drift_6.cell14",
+    "od.1.cell14",
+    "mb.4.cell14",
+    "drift_7.cell14",
+    "mc.2.cell14",
+    "qf.2.cell14",
+    "end_cell.cell14",
+    "start_cell.cell15",
+    "qf.1.cell15",
+    "sf.1.cell15",
+    "drift_1.cell15",
+    "mb.1.cell15",
+    "drift_2.cell15",
+    "rf.cell15",
+    "drift_3.cell15",
+    "of.1.cell15",
+    "mb.2.cell15",
+    "drift_4.cell15",
+    "mc.1.cell15",
+    "qd.1.cell15",
+    "mid_cell.cell15",
+    "qd.2.cell15",
+    "sd.1.cell15",
+    "drift_5.cell15",
+    "mb.3.cell15",
+    "drift_6.cell15",
+    "od.1.cell15",
+    "mb.4.cell15",
+    "drift_7.cell15",
+    "mc.2.cell15",
+    "qf.2.cell15",
+    "end_cell.cell15",
+    "start_cell.cell16",
+    "qf.1.cell16",
+    "sf.1.cell16",
+    "drift_1.cell16",
+    "mb.1.cell16",
+    "drift_2.cell16",
+    "rf.cell16",
+    "drift_3.cell16",
+    "of.1.cell16",
+    "mb.2.cell16",
+    "drift_4.cell16",
+    "mc.1.cell16",
+    "qd.1.cell16",
+    "mid_cell.cell16",
+    "qd.2.cell16",
+    "sd.1.cell16",
+    "drift_5.cell16",
+    "mb.3.cell16",
+    "drift_6.cell16",
+    "od.1.cell16",
+    "mb.4.cell16",
+    "drift_7.cell16",
+    "mc.2.cell16",
+    "qf.2.cell16",
+    "end_cell.cell16",
+    "start_cell.cell17",
+    "qf.1.cell17",
+    "sf.1.cell17",
+    "drift_1.cell17",
+    "mb.1.cell17",
+    "drift_2.cell17",
+    "rf.cell17",
+    "drift_3.cell17",
+    "of.1.cell17",
+    "mb.2.cell17",
+    "drift_4.cell17",
+    "mc.1.cell17",
+    "qd.1.cell17",
+    "mid_cell.cell17",
+    "qd.2.cell17",
+    "sd.1.cell17",
+    "drift_5.cell17",
+    "mb.3.cell17",
+    "drift_6.cell17",
+    "od.1.cell17",
+    "mb.4.cell17",
+    "drift_7.cell17",
+    "mc.2.cell17",
+    "qf.2.cell17",
+    "end_cell.cell17",
+    "start_cell.cell18",
+    "qf.1.cell18",
+    "sf.1.cell18",
+    "drift_1.cell18",
+    "mb.1.cell18",
+    "drift_2.cell18",
+    "rf.cell18",
+    "drift_3.cell18",
+    "of.1.cell18",
+    "mb.2.cell18",
+    "drift_4.cell18",
+    "mc.1.cell18",
+    "qd.1.cell18",
+    "mid_cell.cell18",
+    "qd.2.cell18",
+    "sd.1.cell18",
+    "drift_5.cell18",
+    "mb.3.cell18",
+    "drift_6.cell18",
+    "od.1.cell18",
+    "mb.4.cell18",
+    "drift_7.cell18",
+    "mc.2.cell18",
+    "qf.2.cell18",
+    "end_cell.cell18",
+    "start_cell.cell19",
+    "qf.1.cell19",
+    "sf.1.cell19",
+    "drift_1.cell19",
+    "mb.1.cell19",
+    "drift_2.cell19",
+    "rf.cell19",
+    "drift_3.cell19",
+    "of.1.cell19",
+    "mb.2.cell19",
+    "drift_4.cell19",
+    "mc.1.cell19",
+    "qd.1.cell19",
+    "mid_cell.cell19",
+    "qd.2.cell19",
+    "sd.1.cell19",
+    "drift_5.cell19",
+    "mb.3.cell19",
+    "drift_6.cell19",
+    "od.1.cell19",
+    "mb.4.cell19",
+    "drift_7.cell19",
+    "mc.2.cell19",
+    "qf.2.cell19",
+    "end_cell.cell19",
+    "start_cell.cell20",
+    "qf.1.cell20",
+    "sf.1.cell20",
+    "drift_1.cell20",
+    "mb.1.cell20",
+    "drift_2.cell20",
+    "rf.cell20",
+    "drift_3.cell20",
+    "of.1.cell20",
+    "mb.2.cell20",
+    "drift_4.cell20",
+    "mc.1.cell20",
+    "qd.1.cell20",
+    "mid_cell.cell20",
+    "qd.2.cell20",
+    "sd.1.cell20",
+    "drift_5.cell20",
+    "mb.3.cell20",
+    "drift_6.cell20",
+    "od.1.cell20",
+    "mb.4.cell20",
+    "drift_7.cell20",
+    "mc.2.cell20",
+    "qf.2.cell20",
+    "end_cell.cell20",
+    "start_cell.cell21",
+    "qf.1.cell21",
+    "sf.1.cell21",
+    "drift_1.cell21",
+    "mb.1.cell21",
+    "drift_2.cell21",
+    "rf.cell21",
+    "drift_3.cell21",
+    "of.1.cell21",
+    "mb.2.cell21",
+    "drift_4.cell21",
+    "mc.1.cell21",
+    "qd.1.cell21",
+    "mid_cell.cell21",
+    "qd.2.cell21",
+    "sd.1.cell21",
+    "drift_5.cell21",
+    "mb.3.cell21",
+    "drift_6.cell21",
+    "od.1.cell21",
+    "mb.4.cell21",
+    "drift_7.cell21",
+    "mc.2.cell21",
+    "qf.2.cell21",
+    "end_cell.cell21",
+    "start_cell.cell22",
+    "qf.1.cell22",
+    "sf.1.cell22",
+    "drift_1.cell22",
+    "mb.1.cell22",
+    "drift_2.cell22",
+    "rf.cell22",
+    "drift_3.cell22",
+    "of.1.cell22",
+    "mb.2.cell22",
+    "drift_4.cell22",
+    "mc.1.cell22",
+    "qd.1.cell22",
+    "mid_cell.cell22",
+    "qd.2.cell22",
+    "sd.1.cell22",
+    "drift_5.cell22",
+    "mb.3.cell22",
+    "drift_6.cell22",
+    "od.1.cell22",
+    "mb.4.cell22",
+    "drift_7.cell22",
+    "mc.2.cell22",
+    "qf.2.cell22",
+    "end_cell.cell22",
+    "start_cell.cell23",
+    "qf.1.cell23",
+    "sf.1.cell23",
+    "drift_1.cell23",
+    "mb.1.cell23",
+    "drift_2.cell23",
+    "rf.cell23",
+    "drift_3.cell23",
+    "of.1.cell23",
+    "mb.2.cell23",
+    "drift_4.cell23",
+    "mc.1.cell23",
+    "qd.1.cell23",
+    "mid_cell.cell23",
+    "qd.2.cell23",
+    "sd.1.cell23",
+    "drift_5.cell23",
+    "mb.3.cell23",
+    "drift_6.cell23",
+    "od.1.cell23",
+    "mb.4.cell23",
+    "drift_7.cell23",
+    "mc.2.cell23",
+    "qf.2.cell23",
+    "end_cell.cell23",
+    "start_cell.cell24",
+    "qf.1.cell24",
+    "sf.1.cell24",
+    "drift_1.cell24",
+    "mb.1.cell24",
+    "drift_2.cell24",
+    "rf.cell24",
+    "drift_3.cell24",
+    "of.1.cell24",
+    "mb.2.cell24",
+    "drift_4.cell24",
+    "mc.1.cell24",
+    "qd.1.cell24",
+    "mid_cell.cell24",
+    "qd.2.cell24",
+    "sd.1.cell24",
+    "drift_5.cell24",
+    "mb.3.cell24",
+    "drift_6.cell24",
+    "od.1.cell24",
+    "mb.4.cell24",
+    "drift_7.cell24",
+    "mc.2.cell24",
+    "qf.2.cell24",
+    "end_cell.cell24"
+  ],
+  "config": {
+    "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+    "XFIELDS_BB3D_NO_BEAMSTR": true,
+    "XFIELDS_BB3D_NO_BHABHA": true,
+    "XTRACK_GLOBAL_XY_LIMIT": 1.0
+  },
+  "_extra_config": {
+    "skip_end_turn_actions": false,
+    "reset_s_at_end_turn": true,
+    "matrix_responsiveness_tol": 1e-15,
+    "matrix_stability_tol": 0.002,
+    "dt_update_time_dependent_vars": 0.0,
+    "_t_last_update_time_dependent_vars": null,
+    "_radiation_model": null,
+    "_beamstrahlung_model": null,
+    "_bhabha_model": null,
+    "_needs_rng": false,
+    "enable_time_dependent_vars": false,
+    "twiss_default": {},
+    "steering_monitors_x": null,
+    "steering_monitors_y": null,
+    "steering_correctors_x": null,
+    "steering_correctors_y": null
+  },
+  "particle_ref": {
+    "_rng_s1": [
+      0
+    ],
+    "mass0": 938272088.1604904,
+    "pdg_id": [
+      0
+    ],
+    "state": [
+      1
+    ],
+    "start_tracking_at_element": -1,
+    "s": [
+      0.0
+    ],
+    "x": [
+      0.0
+    ],
+    "charge_ratio": [
+      1.0
+    ],
+    "py": [
+      0.0
+    ],
+    "_rng_s2": [
+      0
+    ],
+    "ax": [
+      0.0
+    ],
+    "at_turn": [
+      0
+    ],
+    "parent_particle_id": [
+      0
+    ],
+    "_rng_s4": [
+      0
+    ],
+    "ay": [
+      0.0
+    ],
+    "px": [
+      0.0
+    ],
+    "particle_id": [
+      0
+    ],
+    "_rng_s3": [
+      0
+    ],
+    "weight": [
+      1.0
+    ],
+    "q0": 1.0,
+    "chi": [
+      1.0
+    ],
+    "at_element": [
+      0
+    ],
+    "zeta": [
+      0.0
+    ],
+    "y": [
+      0.0
+    ],
+    "delta": [
+      0.0
+    ],
+    "ptau": [
+      0.0
+    ],
+    "rvv": [
+      1.0
+    ],
+    "rpp": [
+      1.0
+    ],
+    "p0c": [
+      2400000000.0
+    ],
+    "beta0": [
+      0.9313557685094924
+    ],
+    "gamma0": [
+      2.746419258869149
+    ]
+  },
+  "_var_management_data": {
+    "var_values": {
+      "t_turn_s": 0.0,
+      "__vary_default": {},
+      "k1": 0.14142135623730953,
+      "trim_kf": 0.0006577480571378899,
+      "trim_kd": -0.002968806660708517,
+      "k1s_f": 0,
+      "k1s_d": 0,
+      "k2_f": 0.4202671469086377,
+      "k2_d": -0.8393591503025941,
+      "k3_f": -10,
+      "k3_d": 20,
+      "rf_frequency": 0,
+      "voltage": 0,
+      "k0_mc.1.cell0": 0,
+      "k0_mc.2.cell0": 0,
+      "k0_mc.1.cell1": 0,
+      "k0_mc.2.cell1": 0,
+      "k0_mc.1.cell2": 0,
+      "k0_mc.2.cell2": 0,
+      "k0_mc.1.cell3": 0,
+      "k0_mc.2.cell3": 0,
+      "k0_mc.1.cell4": 0,
+      "k0_mc.2.cell4": 0,
+      "k0_mc.1.cell5": 0,
+      "k0_mc.2.cell5": 0,
+      "k0_mc.1.cell6": 0,
+      "k0_mc.2.cell6": 0,
+      "k0_mc.1.cell7": 0,
+      "k0_mc.2.cell7": 0,
+      "k0_mc.1.cell8": 0,
+      "k0_mc.2.cell8": 0,
+      "k0_mc.1.cell9": 0,
+      "k0_mc.2.cell9": 0,
+      "k0_mc.1.cell10": 0,
+      "k0_mc.2.cell10": 0,
+      "k0_mc.1.cell11": 0,
+      "k0_mc.2.cell11": 0,
+      "k0_mc.1.cell12": 0,
+      "k0_mc.2.cell12": 0,
+      "k0_mc.1.cell13": 0,
+      "k0_mc.2.cell13": 0,
+      "k0_mc.1.cell14": 0,
+      "k0_mc.2.cell14": 0,
+      "k0_mc.1.cell15": 0,
+      "k0_mc.2.cell15": 0,
+      "k0_mc.1.cell16": 0,
+      "k0_mc.2.cell16": 0,
+      "k0_mc.1.cell17": 0,
+      "k0_mc.2.cell17": 0,
+      "k0_mc.1.cell18": 0,
+      "k0_mc.2.cell18": 0,
+      "k0_mc.1.cell19": 0,
+      "k0_mc.2.cell19": 0,
+      "k0_mc.1.cell20": 0,
+      "k0_mc.2.cell20": 0,
+      "k0_mc.1.cell21": 0,
+      "k0_mc.2.cell21": 0,
+      "k0_mc.1.cell22": 0,
+      "k0_mc.2.cell22": 0,
+      "k0_mc.1.cell23": 0,
+      "k0_mc.2.cell23": 0,
+      "k0_mc.1.cell24": 0,
+      "k0_mc.2.cell24": 0
+    },
+    "functions": {
+      "_funcs": {}
+    }
+  },
+  "_var_manager": [
+    [
+      "element_refs['qf_half'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf_half'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qd_half'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd_half'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sf'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['sd'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['of'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['od'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['rf'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['qf.1.cell0'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell0'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell0'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell0'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell0'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell0'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell0'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell0'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell0'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell0'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell0'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell0'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell0'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell0'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell1'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell1'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell1'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['of.1.cell1'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell1'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell1'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell1'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell1'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell1'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell1'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell1'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell1'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell2'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell2'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell2'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell2'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell2'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell2'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell2'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell2'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell2'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell2'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell2'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell2'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell2'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell2'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell3'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell3'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell3'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell3'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell3'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell3'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell3'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell3'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell3'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell3'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell3'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell3'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell3'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell3'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell4'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell4'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell4'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell4'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell4'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell4'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell4'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell4'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell4'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell4'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell4'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell4'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell4'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell4'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell5'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell5'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell5'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell5'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell5'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell5'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell5'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell5'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell5'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell5'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell5'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell5'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell5'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell5'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell6'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell6'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell6'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell6'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell6'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell6'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell6'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell6'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell6'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell6'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell6'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell6'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell6'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell6'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell7'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell7'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell7'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell7'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell7'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell7'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell7'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell7'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell7'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell7'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell7'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell7'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell7'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell7'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell8'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell8'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell8'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell8'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell8'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell8'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell8'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell8'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell8'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell8'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell8'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell8'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell8'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell8'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell9'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell9'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell9'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell9'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell9'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell9'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell9'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell9'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell9'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell9'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell9'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell9'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell9'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell9'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell10'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell10'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell10'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell10'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell10'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell10'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell10'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell10'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell10'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell10'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell10'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell10'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell10'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell10'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell11'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell11'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell11'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell11'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell11'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell11'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell11'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell11'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell11'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell11'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell11'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell11'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell11'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell11'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell12'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell12'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell12'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell12'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell12'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell12'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell12'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell12'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell12'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell12'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell12'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell12'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell12'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell12'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell13'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell13'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell13'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell13'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell13'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell13'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell13'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell13'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell13'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell13'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell13'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell13'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell13'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell13'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell14'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell14'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell14'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell14'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell14'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell14'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell14'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell14'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell14'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell14'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell14'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell14'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell14'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell14'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell15'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell15'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell15'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell15'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell15'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell15'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell15'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell15'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell15'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell15'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell15'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell15'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell15'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell15'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell16'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell16'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell16'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell16'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell16'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell16'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell16'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell16'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell16'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell16'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell16'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell16'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell16'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell16'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell17'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell17'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell17'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell17'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell17'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell17'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell17'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell17'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell17'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell17'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell17'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell17'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell17'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell17'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell18'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell18'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell18'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell18'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell18'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell18'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell18'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell18'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell18'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell18'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell18'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell18'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell18'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell18'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell19'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell19'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell19'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell19'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell19'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell19'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell19'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell19'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell19'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell19'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell19'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell19'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell19'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell19'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell20'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell20'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell20'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell20'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell20'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell20'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell20'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell20'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell20'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell20'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell20'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell20'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell20'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell20'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell21'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell21'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell21'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell21'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell21'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell21'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell21'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell21'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell21'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell21'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell21'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell21'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell21'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell21'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell22'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell22'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell22'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell22'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell22'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell22'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell22'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell22'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell22'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell22'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell22'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell22'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell22'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell22'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell23'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell23'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell23'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell23'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell23'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell23'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell23'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell23'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell23'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell23'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell23'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell23'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell23'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell23'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['qf.1.cell24'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.1.cell24'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['sf.1.cell24'].k2",
+      "vars['k2_f']"
+    ],
+    [
+      "element_refs['rf.cell24'].voltage",
+      "vars['voltage']"
+    ],
+    [
+      "element_refs['rf.cell24'].frequency",
+      "vars['rf_frequency']"
+    ],
+    [
+      "element_refs['of.1.cell24'].k3",
+      "vars['k3_f']"
+    ],
+    [
+      "element_refs['qd.1.cell24'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.1.cell24'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['qd.2.cell24'].k1",
+      "((-vars['k1']) + vars['trim_kd'])"
+    ],
+    [
+      "element_refs['qd.2.cell24'].k1s",
+      "vars['k1s_d']"
+    ],
+    [
+      "element_refs['sd.1.cell24'].k2",
+      "vars['k2_d']"
+    ],
+    [
+      "element_refs['od.1.cell24'].k3",
+      "vars['k3_d']"
+    ],
+    [
+      "element_refs['qf.2.cell24'].k1",
+      "(vars['k1'] + vars['trim_kf'])"
+    ],
+    [
+      "element_refs['qf.2.cell24'].k1s",
+      "vars['k1s_f']"
+    ],
+    [
+      "element_refs['mc.1.cell0'].k0",
+      "vars['k0_mc.1.cell0']"
+    ],
+    [
+      "element_refs['mc.2.cell0'].k0",
+      "vars['k0_mc.2.cell0']"
+    ],
+    [
+      "element_refs['mc.1.cell1'].k0",
+      "vars['k0_mc.1.cell1']"
+    ],
+    [
+      "element_refs['mc.2.cell1'].k0",
+      "vars['k0_mc.2.cell1']"
+    ],
+    [
+      "element_refs['mc.1.cell2'].k0",
+      "vars['k0_mc.1.cell2']"
+    ],
+    [
+      "element_refs['mc.2.cell2'].k0",
+      "vars['k0_mc.2.cell2']"
+    ],
+    [
+      "element_refs['mc.1.cell3'].k0",
+      "vars['k0_mc.1.cell3']"
+    ],
+    [
+      "element_refs['mc.2.cell3'].k0",
+      "vars['k0_mc.2.cell3']"
+    ],
+    [
+      "element_refs['mc.1.cell4'].k0",
+      "vars['k0_mc.1.cell4']"
+    ],
+    [
+      "element_refs['mc.2.cell4'].k0",
+      "vars['k0_mc.2.cell4']"
+    ],
+    [
+      "element_refs['mc.1.cell5'].k0",
+      "vars['k0_mc.1.cell5']"
+    ],
+    [
+      "element_refs['mc.2.cell5'].k0",
+      "vars['k0_mc.2.cell5']"
+    ],
+    [
+      "element_refs['mc.1.cell6'].k0",
+      "vars['k0_mc.1.cell6']"
+    ],
+    [
+      "element_refs['mc.2.cell6'].k0",
+      "vars['k0_mc.2.cell6']"
+    ],
+    [
+      "element_refs['mc.1.cell7'].k0",
+      "vars['k0_mc.1.cell7']"
+    ],
+    [
+      "element_refs['mc.2.cell7'].k0",
+      "vars['k0_mc.2.cell7']"
+    ],
+    [
+      "element_refs['mc.1.cell8'].k0",
+      "vars['k0_mc.1.cell8']"
+    ],
+    [
+      "element_refs['mc.2.cell8'].k0",
+      "vars['k0_mc.2.cell8']"
+    ],
+    [
+      "element_refs['mc.1.cell9'].k0",
+      "vars['k0_mc.1.cell9']"
+    ],
+    [
+      "element_refs['mc.2.cell9'].k0",
+      "vars['k0_mc.2.cell9']"
+    ],
+    [
+      "element_refs['mc.1.cell10'].k0",
+      "vars['k0_mc.1.cell10']"
+    ],
+    [
+      "element_refs['mc.2.cell10'].k0",
+      "vars['k0_mc.2.cell10']"
+    ],
+    [
+      "element_refs['mc.1.cell11'].k0",
+      "vars['k0_mc.1.cell11']"
+    ],
+    [
+      "element_refs['mc.2.cell11'].k0",
+      "vars['k0_mc.2.cell11']"
+    ],
+    [
+      "element_refs['mc.1.cell12'].k0",
+      "vars['k0_mc.1.cell12']"
+    ],
+    [
+      "element_refs['mc.2.cell12'].k0",
+      "vars['k0_mc.2.cell12']"
+    ],
+    [
+      "element_refs['mc.1.cell13'].k0",
+      "vars['k0_mc.1.cell13']"
+    ],
+    [
+      "element_refs['mc.2.cell13'].k0",
+      "vars['k0_mc.2.cell13']"
+    ],
+    [
+      "element_refs['mc.1.cell14'].k0",
+      "vars['k0_mc.1.cell14']"
+    ],
+    [
+      "element_refs['mc.2.cell14'].k0",
+      "vars['k0_mc.2.cell14']"
+    ],
+    [
+      "element_refs['mc.1.cell15'].k0",
+      "vars['k0_mc.1.cell15']"
+    ],
+    [
+      "element_refs['mc.2.cell15'].k0",
+      "vars['k0_mc.2.cell15']"
+    ],
+    [
+      "element_refs['mc.1.cell16'].k0",
+      "vars['k0_mc.1.cell16']"
+    ],
+    [
+      "element_refs['mc.2.cell16'].k0",
+      "vars['k0_mc.2.cell16']"
+    ],
+    [
+      "element_refs['mc.1.cell17'].k0",
+      "vars['k0_mc.1.cell17']"
+    ],
+    [
+      "element_refs['mc.2.cell17'].k0",
+      "vars['k0_mc.2.cell17']"
+    ],
+    [
+      "element_refs['mc.1.cell18'].k0",
+      "vars['k0_mc.1.cell18']"
+    ],
+    [
+      "element_refs['mc.2.cell18'].k0",
+      "vars['k0_mc.2.cell18']"
+    ],
+    [
+      "element_refs['mc.1.cell19'].k0",
+      "vars['k0_mc.1.cell19']"
+    ],
+    [
+      "element_refs['mc.2.cell19'].k0",
+      "vars['k0_mc.2.cell19']"
+    ],
+    [
+      "element_refs['mc.1.cell20'].k0",
+      "vars['k0_mc.1.cell20']"
+    ],
+    [
+      "element_refs['mc.2.cell20'].k0",
+      "vars['k0_mc.2.cell20']"
+    ],
+    [
+      "element_refs['mc.1.cell21'].k0",
+      "vars['k0_mc.1.cell21']"
+    ],
+    [
+      "element_refs['mc.2.cell21'].k0",
+      "vars['k0_mc.2.cell21']"
+    ],
+    [
+      "element_refs['mc.1.cell22'].k0",
+      "vars['k0_mc.1.cell22']"
+    ],
+    [
+      "element_refs['mc.2.cell22'].k0",
+      "vars['k0_mc.2.cell22']"
+    ],
+    [
+      "element_refs['mc.1.cell23'].k0",
+      "vars['k0_mc.1.cell23']"
+    ],
+    [
+      "element_refs['mc.2.cell23'].k0",
+      "vars['k0_mc.2.cell23']"
+    ],
+    [
+      "element_refs['mc.1.cell24'].k0",
+      "vars['k0_mc.1.cell24']"
+    ],
+    [
+      "element_refs['mc.2.cell24'].k0",
+      "vars['k0_mc.2.cell24']"
+    ]
+  ],
+  "metadata": {}
+}
